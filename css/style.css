@@ -590,6 +590,7 @@ footer h4{
         display: block;
         width: 40%;
         margin: 0 auto 80px;
+        text-align: center;
     }
     .story {
         padding: 100px 0 50px;
@@ -624,12 +625,12 @@ footer h4{
         text-align: center;
     }
     .service .position-icon {
-        top: -166px;
-        right: -130.5px;
+        top: -195px;
+        right: -170.5px;
     }
     .work ul li {
         display: block;
-        padding: 15px;
+        margin-top: 50px;
     }
     .work ul li:hover {
         width: 40%;
@@ -684,7 +685,7 @@ footer h4{
         width: 55%!important;
     }
     .link ul li {
-        padding: 0 40px;
+        padding: 0 10px;
     }
     .quick h5{
         text-align: center;
