@@ -344,6 +344,8 @@ header .header-btn-two{
     text-align: center;
 }
 .work img{
+    display: block;
+    margin: 0 auto;
     padding-bottom: 25px;
 }
 .work-btn {
@@ -534,6 +536,179 @@ footer h4{
 /* End Footer Section */
 
 
+/* Start Responsive For Tablet Device */
+@media (min-width: 576px) and (max-width: 768px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+    header h2 {
+        text-align: center;
+        font-size: 28px;
+        padding-left: 0;
+    }
+    header h1 {
+        font-size: 35px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    header p {
+        padding-left: 0;
+        text-align: center;
+    }
+    header .header-btn-one {
+        width: 27%;
+    }
+    header .header-btn-two {
+        margin: 20px 0 80px 10px;
+        width: 27%;
+    }
+    .comany {
+        padding: 35px 0 250px;
+    }
+    .comany h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .comany h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .comany ul {
+        text-align: center;
+    }
+    .comany ul li {
+        display: block;
+        padding: 12px 15px;
+    }
+    .comany ul li:hover {
+        width: 44%;
+        margin: 0 auto;
+    }
+    .comany p {
+        text-align: center;
+        padding: 0 35px 40px;
+    }
+    .all-btn {
+        display: block;
+        width: 30%;
+        margin: 0 auto 80px;
+        text-align: center;
+    }
+    .story {
+        padding: 100px 0 50px;
+    }
+    .story h2 {
+        margin-top: 0px;
+        font-size: 28px;
+    }
+    .story h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .story p {
+        padding: 0 50px 40px;
+    }
+    .service h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .service h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .service p {
+        text-align: center;
+    }
+    .service img{
+        display: block;
+        margin: 0 auto;
+    }
+    .service h3 {
+        text-align: center;
+    }
+    .service .position-icon {
+        top: -251px;
+        right: -257.5px;
+    }
+    .work ul{
+        margin-top: 240px;
+    }
+    .work ul li {
+        display: block;
+        padding: 20px 0;
+    }
+    .work ul li:hover {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .work p {
+        padding: 0 40px 40px;
+    }
+    .work-btn {
+        margin-top: 40px!important;
+    }
+    .client-logo .img-2{
+        padding-top: 70px;
+    }
+    .client-logo .img-3{
+        padding-top: 70px;
+    }
+    .client-logo .img-4 {
+        padding: 8px 0 65px;
+    }
+    .client-logo .img-5 {
+        padding: 0;
+    }
+    .client-logo .img-6{
+        padding-top: 60px;
+    }
+    .client-logo .img-8 {
+        padding: 70px 0 0;
+    }
+    .testimonial h2 {
+        font-size: 28px;
+        text-align: center;
+        margin: 0;
+    }
+    .testimonial h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .testimonial p {
+        padding: 3px 0px 0px 35px;
+    }
+    .help h1 {
+        font-size: 35px;
+    }
+    .help p {
+        padding: 0;
+    }
+    .help form {
+        margin-top: 25px;
+    }
+    .help-btn {
+        width: 55%!important;
+    }
+    .link ul li {
+        padding: 0 4px;
+    }
+    .quick h5{
+        text-align: center;
+    }
+    .quick ul li {
+        text-align: center;
+    }
+    .quick img{
+        display: block;
+        margin: 0 auto;
+    }
+    footer h4{
+        font-size: 13px;
+    }
+}
+/* End Responsive For Tablet Device */
+
+
 /* Start Responsive For Mobile Device */
 @media (min-width: 320px) and (max-width: 576px) {
     .navbar-brand {
@@ -618,8 +793,12 @@ footer h4{
         text-align: center;
     }
     .service img{
-        display: block;
-        margin: 0 auto;
+        display: block!important;
+        margin: 0 auto!important;
+    }
+    .center{
+        display: block!important;
+        margin: 0 auto!important;
     }
     .service h3 {
         text-align: center;
@@ -628,9 +807,12 @@ footer h4{
         top: -195px;
         right: -170.5px;
     }
+    .work ul{
+        margin-top: 100px;
+    }
     .work ul li {
         display: block;
-        margin-top: 50px;
+        padding: 10px 0;
     }
     .work ul li:hover {
         width: 40%;
